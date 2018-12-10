@@ -3,7 +3,7 @@ import unittest
 
 
 def isUnique(string):
-    # Assuming character set is ASCII (128 characters)
+
     if (string == None or len(string) > 256):
         return False
 
