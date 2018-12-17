@@ -10,7 +10,10 @@ class LinkedList
     {
         int data;
         Node next;
-        Node(int d) {data = d; next = null; }
+        
+        Node(int d){
+          data = d; next = null;
+        }
     }
 
     /* function to insert a new_node in a list. */
