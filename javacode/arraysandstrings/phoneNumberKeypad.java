@@ -3,6 +3,7 @@ import java.util.*;
 public class Solution{
 public List<String> letterCombinations(String digits) {
     HashMap<Integer, String> map = new HashMap<Integer, String>();
+    map.put(1, " ");
     map.put(2, "abc");
     map.put(3, "def");
     map.put(4, "ghi");
@@ -11,7 +12,7 @@ public List<String> letterCombinations(String digits) {
     map.put(7, "pqrs");
     map.put(8, "tuv");
     map.put(9, "wxyz");
-    map.put(0, " ");
+    map.put(0, "+");
 
     ArrayList<String> result = new ArrayList<String>();
 
