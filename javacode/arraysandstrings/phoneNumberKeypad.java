@@ -11,7 +11,7 @@ public List<String> letterCombinations(String digits) {
     map.put(7, "pqrs");
     map.put(8, "tuv");
     map.put(9, "wxyz");
-    map.put(0, "");
+    map.put(0, " ");
 
     ArrayList<String> result = new ArrayList<String>();
 
@@ -45,7 +45,6 @@ public void getString(String digits, ArrayList<Character> temp, ArrayList<String
 public static void main(String[] args){
     Solution m = new Solution();
 
-    System.out.println(m.letterCombinations("23"));
-
+    System.out.println(m.letterCombinations("3605500567"));
 }
 }
